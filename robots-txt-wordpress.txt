@@ -1,0 +1,15 @@
+# robots.txt template for WordPress sites
+# Replace https://yoursite.com with your actual domain
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+Disallow: /?s=
+Disallow: /search/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://yoursite.com/sitemap_index.xml
